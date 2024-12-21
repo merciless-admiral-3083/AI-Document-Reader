@@ -1,4 +1,4 @@
-#PDF Question Answering App
+# PDF Question Answering App
 
 ## Introduction
 PDF Question Answering is a web application developed by utilizing **Streamlit**, **PyPDF2**, and the **Groq LLaMA-3** model. Users can upload any PDF document, then pose questions related to it and get high-quality answers as a result of processing of text in the uploaded file.
