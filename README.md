@@ -1,13 +1,12 @@
-# PDF Question Answering App
+#PDF Question Answering App
 
-## Overview
-
-This is a PDF Question Answering web application built using **Streamlit**, **PyPDF2**, and the **Groq LLaMA-3** model. Users can upload a PDF document, ask questions related to the content of the PDF, and receive high-quality answers based on the document's text.
+## Introduction
+PDF Question Answering is a web application developed by utilizing **Streamlit**, **PyPDF2**, and the **Groq LLaMA-3** model. Users can upload any PDF document, then pose questions related to it and get high-quality answers as a result of processing of text in the uploaded file.
 
 ## Features
 
-- **Upload PDF**: Users can upload text-based PDF files (up to 30,000 characters).
-- **Ask Questions**: After uploading a PDF, users can ask questions based on the document's content.
+Upload PDF. Users can upload text-based PDF files up to 30,000 characters long.
+- **Ask Questions**: After uploading a PDF, users can ask questions based on the content of the document.
 - **Answer Generation**: The application processes the document and uses the LLaMA-3 model to generate answers based on the content.
 - **Document Preview**: A preview of the uploaded document is shown to the user for context before asking questions.
 
@@ -21,7 +20,8 @@ To run this app locally, you'll need the following dependencies:
 - **Groq (for querying the LLaMA-3 model)**
 - **python-dotenv** (for managing environment variables)
 
-### Install the dependencies:
+### Install dependencies:
 
 ```bash
 pip install streamlit PyPDF2 groq python-dotenv
+```
